@@ -102,4 +102,35 @@ I then merge the two together (step 1), get the average of each varible for each
 
 Before the last step I renamed the activities and label the dataset (step 3 and 4). Finally, I export the tidy data ( step 5).
 
+#variables(features)
+
+ [1] "subject"                                           "activity_Label"                                    "TimeBodyAccelerometerMean()-X"                    
+ [4] "TimeBodyAccelerometerMean()-Y"                     "TimeBodyAccelerometerMean()-Z"                     "TimeBodyAccelerometerSTD()-X"                     
+ [7] "TimeBodyAccelerometerSTD()-Y"                      "TimeBodyAccelerometerSTD()-Z"                      "TimeGravityAccelerometerMean()-X"                 
+[10] "TimeGravityAccelerometerMean()-Y"                  "TimeGravityAccelerometerMean()-Z"                  "TimeGravityAccelerometerSTD()-X"                  
+[13] "TimeGravityAccelerometerSTD()-Y"                   "TimeGravityAccelerometerSTD()-Z"                   "TimeBodyAccelerometerJerkMean()-X"                
+[16] "TimeBodyAccelerometerJerkMean()-Y"                 "TimeBodyAccelerometerJerkMean()-Z"                 "TimeBodyAccelerometerJerkSTD()-X"                 
+[19] "TimeBodyAccelerometerJerkSTD()-Y"                  "TimeBodyAccelerometerJerkSTD()-Z"                  "TimeBodyGyroscopeMean()-X"                        
+[22] "TimeBodyGyroscopeMean()-Y"                         "TimeBodyGyroscopeMean()-Z"                         "TimeBodyGyroscopeSTD()-X"                         
+[25] "TimeBodyGyroscopeSTD()-Y"                          "TimeBodyGyroscopeSTD()-Z"                          "TimeBodyGyroscopeJerkMean()-X"                    
+[28] "TimeBodyGyroscopeJerkMean()-Y"                     "TimeBodyGyroscopeJerkMean()-Z"                     "TimeBodyGyroscopeJerkSTD()-X"                     
+[31] "TimeBodyGyroscopeJerkSTD()-Y"                      "TimeBodyGyroscopeJerkSTD()-Z"                      "TimeBodyAccelerometerMagnitudeMean()"             
+[34] "TimeBodyAccelerometerMagnitudeSTD()"               "TimeGravityAccelerometerMagnitudeMean()"           "TimeGravityAccelerometerMagnitudeSTD()"           
+[37] "TimeBodyAccelerometerJerkMagnitudeMean()"          "TimeBodyAccelerometerJerkMagnitudeSTD()"           "TimeBodyGyroscopeMagnitudeMean()"                 
+[40] "TimeBodyGyroscopeMagnitudeSTD()"                   "TimeBodyGyroscopeJerkMagnitudeMean()"              "TimeBodyGyroscopeJerkMagnitudeSTD()"              
+[43] "FrequencyBodyAccelerometerMean()-X"                "FrequencyBodyAccelerometerMean()-Y"                "FrequencyBodyAccelerometerMean()-Z"               
+[46] "FrequencyBodyAccelerometerSTD()-X"                 "FrequencyBodyAccelerometerSTD()-Y"                 "FrequencyBodyAccelerometerSTD()-Z"                
+[49] "FrequencyBodyAccelerometerMeanFreq()-X"            "FrequencyBodyAccelerometerMeanFreq()-Y"            "FrequencyBodyAccelerometerMeanFreq()-Z"           
+[52] "FrequencyBodyAccelerometerJerkMean()-X"            "FrequencyBodyAccelerometerJerkMean()-Y"            "FrequencyBodyAccelerometerJerkMean()-Z"           
+[55] "FrequencyBodyAccelerometerJerkSTD()-X"             "FrequencyBodyAccelerometerJerkSTD()-Y"             "FrequencyBodyAccelerometerJerkSTD()-Z"            
+[58] "FrequencyBodyAccelerometerJerkMeanFreq()-X"        "FrequencyBodyAccelerometerJerkMeanFreq()-Y"        "FrequencyBodyAccelerometerJerkMeanFreq()-Z"       
+[61] "FrequencyBodyGyroscopeMean()-X"                    "FrequencyBodyGyroscopeMean()-Y"                    "FrequencyBodyGyroscopeMean()-Z"                   
+[64] "FrequencyBodyGyroscopeSTD()-X"                     "FrequencyBodyGyroscopeSTD()-Y"                     "FrequencyBodyGyroscopeSTD()-Z"                    
+[67] "FrequencyBodyGyroscopeMeanFreq()-X"                "FrequencyBodyGyroscopeMeanFreq()-Y"                "FrequencyBodyGyroscopeMeanFreq()-Z"               
+[70] "FrequencyBodyAccelerometerMagnitudeMean()"         "FrequencyBodyAccelerometerMagnitudeSTD()"          "FrequencyBodyAccelerometerMagnitudeMeanFreq()"    
+[73] "FrequencyBodyAccelerometerJerkMagnitudeMean()"     "FrequencyBodyAccelerometerJerkMagnitudeSTD()"      "FrequencyBodyAccelerometerJerkMagnitudeMeanFreq()"
+[76] "FrequencyBodyGyroscopeMagnitudeMean()"             "FrequencyBodyGyroscopeMagnitudeSTD()"              "FrequencyBodyGyroscopeMagnitudeMeanFreq()"        
+[79] "FrequencyBodyGyroscopeJerkMagnitudeMean()"         "FrequencyBodyGyroscopeJerkMagnitudeSTD()"          "FrequencyBodyGyroscopeJerkMagnitudeMeanFreq()"   
+
+
 Thank you!
