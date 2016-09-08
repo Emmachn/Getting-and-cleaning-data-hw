@@ -1,31 +1,41 @@
-# Getting-and-cleaning-data-hw
+## Getting-and-cleaning-data-hw
 this is for the assignment
 
+## import packages needed and set the workpath
 library("plyr")
+
 library("data.table")
+
 library("reshape2")
+
 file.path <- "/Users/emmasun/Desktop/data science/cleaning data"
+
 setwd(file.path)
-## this below is the requirement:
-## Create one R script called run_analysis.R that does the following:
-## 1. Merges the training and the test sets to create one data set.
-## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-## 3. Uses descriptive activity names to name the activities in the data set
-## 4. Appropriately labels the data set with descriptive activity names.
-## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## this below is the requirement of the assignment:
+Create one R script called run_analysis.R that does the following:
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive activity names.
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
 
 
-# Load activity labels and data colnames
+## Load activity labels and data colnames
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")[,2]
+
 featuresname <- read.table("./UCI HAR Dataset/features.txt")[,2]
 
-# Extract only the mean and std
+## Extract only the mean and std
+
 extract_features <- grepl("mean|std", featuresname)
 
 # Load X_test and y_test data
+
 X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
+
 y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
